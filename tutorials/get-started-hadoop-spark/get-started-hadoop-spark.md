@@ -211,15 +211,19 @@ Congratulations! You now have a Hadoop Spark cluster up and running.
  
 SSH to the client node to execute other Hadoop and Spark workloads.
  
-1.
+1. Step
 `$ juju ssh client/0`
-2. 
+
+2. Step
 `$ ./sparkpi.sh`
-3.
+
+3. Step
 `$ spark-submit --class org.apache.spark.examples.SparkPi  /usr/lib/spark/examples/jars/spark-examples.jar 10`
-4. 
+
+4. Step
 `$ hadoop jar /usr/lib/hadoop-mapreduce/hadoop-mapreduce-examples-*.jar teragen 1000000 teragen_data`
-5. 
+
+5. Step
 `$ exit`
  
  
