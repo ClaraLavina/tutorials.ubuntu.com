@@ -176,7 +176,7 @@ The *second link* (e.g. *xxx.xxx.xxx.xxx:19888*) opens the **YARN History Server
 3. Click *Commit changes* and *Deploy*.
 ![Commit changes](./images/commit-changes.png)
  
-4. Visit *xxx.xxx.xxx.xxx:80/ganglia* to open the **Ganglia web interface**.  Please note, you will need to append “/ganglia” to the URL to reach the Ganglia interface.
+4. Visit *xxx.xxx.xxx.xxx:80/ganglia* to open the **Ganglia web interface**.  Please note, you will need to append **/ganglia** to the URL to reach the Ganglia interface.
 ![Ganglia interface](./images/ganglia-interface.png)
  
  
