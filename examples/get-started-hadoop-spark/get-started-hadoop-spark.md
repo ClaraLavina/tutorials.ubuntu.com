@@ -86,7 +86,7 @@ For general help in the CLI:
 ## Operating your Hadoop cluster 
 Duration: 5:00
  
-1. Select the Namenode charm.
+1. Select the **Namenode** charm.
 ![Namenode charm](./images/namenode-charm.png)
  
 2. Select *Expose* in the inspector on the left hand side and set the toggle *ON*,  so you can connect to this unit. If deployment has not completed, no public address will be available.
@@ -150,7 +150,7 @@ Duration: 5:00
  
 ### Resource Manager 
  
-1. Select *Resource Manager* charm.
+1. Select **Resource Manager** charm.
 ![Resource charm](./images/resource-charm.png)
  
 2. *Expose* the charm.
@@ -167,7 +167,7 @@ The *second link* (e.g. *xxx.xxx.xxx.xxx:19888*) opens the **YARN History Server
  
 ### Ganglia
  
-1. Select *Ganglia* (not Ganglia-node).
+1. Select **Ganglia** (not Ganglia-node).
 ![Ganglia charm](./images/ganglia-charm.png)
  
 2. *Expose* the charm.
@@ -213,16 +213,12 @@ SSH to the client node to execute other Hadoop and Spark workloads.
  
 1.
 `$ juju ssh client/0`
- 
 2. 
 `$ ./sparkpi.sh`
- 
 3.
 `$ spark-submit --class org.apache.spark.examples.SparkPi  /usr/lib/spark/examples/jars/spark-examples.jar 10`
- 
 4. 
 `$ hadoop jar /usr/lib/hadoop-mapreduce/hadoop-mapreduce-examples-*.jar teragen 1000000 teragen_data`
- 
 5. 
 `$ exit`
  
