@@ -148,7 +148,7 @@ Duration: 5:00
 ![Spark server](./images/spark-server.png)
  
  
-### Resource manager 
+### Resource Manager 
  
 1. Select *Resource Manager* charm.
 ![Resource charm](./images/resource-charm.png)
